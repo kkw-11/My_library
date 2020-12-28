@@ -2,11 +2,7 @@
 #include "MyLibrary.h"
 
 
-void PrintString(char* pstr) {
-		printf("%s\n", pstr);
-		for (int i = 0; pstr[i]; ++i)
-			printf("%c:%d\n",pstr[i],pstr[i]);
-}
+
 
 int main() {
 
