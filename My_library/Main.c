@@ -1,23 +1,23 @@
 #include <stdio.h>
 #include "MyLibrary.h"
 
+
+void PrintString(char* pstr) {
+		printf("%s\n", pstr);
+		for (int i = 0; pstr[i]; ++i)
+			printf("%c:%d\n",pstr[i],pstr[i]);
+}
+
 int main() {
 
-	int a = 10;
-	int b = 20;
-	int result = 0;
+	int arr[5] = {10,20,30,40};
+	int arrSize = sizeof(arr) / sizeof(int);
 
-	printf("a: %d, b: %d\n", a, b);
-	printf("----------------\n");
-
-	result = TotalInteger(a, b);
-	printf("result : %d\n", result);
 	
-	Swap(&a, &b);
-	
-	printf("a: %d, b: %d\n", a, b);
-	printf("----------------\n");
+	char* str = "ABCDEEEEEEEEEEEEEE";
 
-	result = TotalInteger(a, b);		
-	printf("result : %d\n", result);
+	PrintString(str);
+
+
+	
 }
