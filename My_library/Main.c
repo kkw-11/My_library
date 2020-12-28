@@ -5,11 +5,19 @@ int main() {
 
 	int a = 10;
 	int b = 20;
+	int result = 0;
 
 	printf("a: %d, b: %d\n", a, b);
-	Swap(&a, &b);
-	printf("a: %d, b: %d\n", a, b);
+	printf("----------------\n");
 
-	printf("%d\n",TotalInteger(1, 100));
+	result = TotalInteger(a, b);
+	printf("result : %d\n", result);
 	
+	Swap(&a, &b);
+	
+	printf("a: %d, b: %d\n", a, b);
+	printf("----------------\n");
+
+	result = TotalInteger(a, b);		
+	printf("result : %d\n", result);
 }
