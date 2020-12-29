@@ -26,5 +26,8 @@
     <ClCompile Include="Mylibrary.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Stack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
