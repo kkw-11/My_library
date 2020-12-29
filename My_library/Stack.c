@@ -24,7 +24,7 @@ int stackPush(int value)
 {
     if (stackIsFull())
     {
-        printf("stack overflow!");
+        printf("Stack overflow!\n");
         return 0;
     }
     stack[top] = value;
@@ -37,7 +37,7 @@ int stackPop(int* value)
 {
     if (stackIsEmpty())
     {
-        printf("stack is empty!");
+        printf("Stack is empty!\n");
         return 0;
     }
     top--;
