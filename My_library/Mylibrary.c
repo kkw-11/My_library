@@ -9,9 +9,21 @@ void Swap(int* lhs, int* rhs) {
 
 int TotalInteger(int l, int r) {
 	int sum = 0;
-	for (int i = l; i <= r; ++i) {
-		sum += i;
+
+	if (l < r) {
+		for (int i = l; i <= r; ++i) {
+			sum += i;
+		}
 	}
+	else if (l > r) {
+		for (int i = r; i <= l; ++i) {
+			sum += i;
+		}
+	}
+	else {
+		sum = l;
+	}
+
 	return sum;
 }
 
