@@ -18,3 +18,5 @@ int stackPush(int value);
 
 int stackPop(int* value);
 //
+
+void bSearch(int arr[], int left, int right, int target);

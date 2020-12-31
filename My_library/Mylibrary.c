@@ -27,3 +27,27 @@ void PrintString(char* pstr) {
 	for (int i = 0; pstr[i]; ++i)
 		printf("%c:%d\n", pstr[i], pstr[i]);
 }
+
+void bSearch(int arr[], int left, int right, int target) {
+	int mid = (left + right) / 2;
+	int index = 0;
+	if (left > right) {
+		index = -1;
+		printf("target index:%d", index);
+		return;
+	}
+
+	if (target > arr[mid]) {
+		left = mid + 1;
+		bSearch(arr, left, right, target);
+	}
+	else if (target < arr[mid]) {
+		right = mid - 1;
+		bSearch(arr, left, right, target);
+	}
+	else {
+		index = mid;
+		printf("target index:%d", index);
+		return;
+	}
+}
