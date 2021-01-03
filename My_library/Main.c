@@ -1,23 +1,17 @@
 #include <stdio.h>
 #include "MyLibrary.h"
-int cntDivisor(int num) {
-	int cnt = 0;
-	int j = num;
-	for (int i = 1; i < j; ++i) {
-		if (num % i == 0) {
-			j = num / i;
-			cnt += 2;;
-		}
-	}
-	return cnt;
-}
+
 
 int main() {
 	int res = 0;
 
-	res = cntDivisor(3);
-	printf("%d", res);
+	int list[10] = { 100, 23, 25, 35, 42, 51, 56, 65, 70, 89 };
 
+	Sort(list, 10);
+
+	for (int i = 0; i < 10; ++i) {
+		printf("%d, ", list[i]);
+	}
 
 }
 

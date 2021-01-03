@@ -23,4 +23,7 @@ void bSearch(int arr[], int left, int right, int target);
 
 //약수의 개수
 int cntDivisor(int num);
+//선형검색
+int Search(int list[], int size, int data);
 
+void Sort(int list[], int size);
