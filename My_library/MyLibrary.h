@@ -20,3 +20,7 @@ int stackPop(int* value);
 //
 
 void bSearch(int arr[], int left, int right, int target);
+
+//약수의 개수
+int cntDivisor(int num);
+

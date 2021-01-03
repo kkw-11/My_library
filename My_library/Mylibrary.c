@@ -63,3 +63,15 @@ void bSearch(int arr[], int left, int right, int target) {
 		return;
 	}
 }
+//약수의 개수
+int cntDivisor(int num) {
+	int cnt = 0;
+	int j = num;
+	for (int i = 1; i < j; ++i) {
+		if (num % i == 0) {
+			j = num / i;
+			cnt += 2;;
+		}
+	}
+	return cnt;
+}
