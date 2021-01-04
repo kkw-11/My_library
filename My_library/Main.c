@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "MyLibrary.h"
 
-
 int main() {
 	int res = 0;
 
@@ -14,7 +13,6 @@ int main() {
 	}
 
 }
-
 
 //#include <stdio.h>
 //#include "MyLibrary.h"
