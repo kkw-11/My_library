@@ -75,13 +75,12 @@ int cntDivisor(int num) {
 	}
 	return cnt;
 }
-void Sort(int list[], int size) {
-	for (int i = size - 1; i >= 0; --i) {
-		for (int j = 0; j < i; ++j)
-			if (list[i] < list[j]) {
-				int temp = list[i];
-				list[i] = list[j];
-				list[j] = temp;
-			}
-	}
+//선형 검색
+int Search(int list[], int size, int data) {
+
+	for (int i = 0; i < size; ++i)
+		if (list[i] == data)
+			return i;
+
+	return -1;
 }
