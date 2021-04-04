@@ -6,6 +6,14 @@
 ## Description
 
 * 자리 바꿈 Swap function
+  * void Swap(int* lhs, int* rhs);
+  * 깃 Pull
+  * 깃 Commit
+    * 깃 Commit 1)
+    * 깃 Commit 2)
+
+
+* 자리 바꿈 Swap function
  * void Swap(int* lhs, int* rhs);
 * l~r 까지 합 
  * int TotalInteger(int l, int r);
