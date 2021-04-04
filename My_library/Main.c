@@ -1,19 +1,20 @@
-//new account
-#include <stdio.h>
-#include "MyLibrary.h"
 
-int main() {
-	int res = 0;
-
-	int list[10] = { 100, 23, 25, 35, 42, 51, 56, 65, 70, 89 };
-
-	Sort(list, 10);
-
-	for (int i = 0; i < 10; ++i) {
-		printf("%d, ", list[i]);
-	}
-
-}
+////new account
+//#include <stdio.h>
+//#include "MyLibrary.h"
+//
+//int main() {
+//	int res = 0;
+//
+//	int list[10] = { 100, 23, 25, 35, 42, 51, 56, 65, 70, 89 };
+//
+//	Sort(list, 10);
+//
+//	for (int i = 0; i < 10; ++i) {
+//		printf("%d, ", list[i]);
+//	}
+//
+//}
 
 //#include <stdio.h>
 //#include "MyLibrary.h"
