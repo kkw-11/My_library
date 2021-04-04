@@ -11,14 +11,51 @@
   * 깃 Commit
     * 깃 Commit 1)
     * 깃 Commit 2)
-
-
+    * 
 * 자리 바꿈 Swap function
- * void Swap(int* lhs, int* rhs);
+  * void Swap(int* lhs, int* rhs);
+
 * l~r 까지 합 
- * int TotalInteger(int l, int r);
+  * int TotalInteger(int l, int r);
+
 * 배열 출력 함수
- * void PrintArray(int parr[], int size); //void PrintArray(int* parr, int size);
+  * void PrintArray(int parr[], int size); //void PrintArray(int* parr, int size);
+
+
+
+
+  * 깃 Pull
+  * 깃 Commit
+    * 깃 Commit 1)
+    * 깃 Commit 2)* 깃 튜토리얼
+  * 깃 Clone
+  * 깃 Pull
+  * 깃 Commit
+    * 깃 Commit 1)
+    * 깃 Commit 2)* 깃 튜토리얼
+  * 깃 Clone
+  * 깃 Pull
+  * 깃 Commit
+    * 깃 Commit 1)
+    * 깃 Commit 2)* 깃 튜토리얼
+  * 깃 Clone
+  * 깃 Pull
+  * 깃 Commit
+    * 깃 Commit 1)
+    * 깃 Commit 2)* 깃 튜토리얼
+  * 깃 Clone
+  * 깃 Pull
+  * 깃 Commit
+    * 깃 Commit 1)
+    * 깃 Commit 2)* 깃 튜토리얼
+  * 깃 Clone
+  * 깃 Pull
+  * 깃 Commit
+    * 깃 Commit 1)
+    * 깃 Commit 2)
+
+
+
 
 * String print function
  * void PrintString(char* pstr);
