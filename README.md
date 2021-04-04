@@ -30,10 +30,9 @@
   * int stackIsFull(void);
   * int stackPush(int value);
   * int stackPop(int* value);
-
-
+  
 * Binary Search
- * void bSearch(int arr[], int left, int right, int target);
+  * void bSearch(int arr[], int left, int right, int target);
 
 * 약수의 개수
   * int cntDivisor(int num);
