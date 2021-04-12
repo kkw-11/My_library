@@ -21,9 +21,9 @@ int stackPop(int* value);
 
 void bSearch(int arr[], int left, int right, int target);
 
-//¾à¼öÀÇ °³¼ö
+//ì•½ìˆ˜ì˜ ê°œìˆ˜
 int cntDivisor(int num);
-//¼±Çü°Ë»ö
+//ì„ í˜•ê²€ìƒ‰
 int Search(int list[], int size, int data);
 
 void Sort(int list[], int size);
