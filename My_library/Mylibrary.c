@@ -7,21 +7,21 @@ void Swap(int* lhs, int* rhs) {
 	*rhs = temp;
 }
 
-int TotalInteger(int l, int r) {
+int TotalInteger(int left, int right) {
 	int sum = 0;
 
-	if (l < r) {
-		for (int i = l; i <= r; ++i) {
+	if (left < right) {
+		for (int i = left; i <= right; ++i) {
 			sum += i;
 		}
 	}
-	else if (l > r) {
-		for (int i = r; i <= l; ++i) {
+	else if (left > right) {
+		for (int i = right; i <= left; ++i) {
 			sum += i;
 		}
 	}
 	else {
-		sum = l;
+		sum = left;
 	}
 
 	return sum;
